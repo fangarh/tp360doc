@@ -1,0 +1,52 @@
+title: Топоматик 360
+href: index.yaml
+
+navigation:
+  logo:
+    text: Топоматик 360
+    url: "https://360.topomatic.ru/"
+    icon: "../ru/_assets/logo.svg"
+  header:
+    leftItems:
+      - text: "Оглавление"
+        type: "link"
+        url: "../ru"
+
+      - text: "Контакты"
+        type: "link"
+        url: "../ru/contacts"
+    rightItems:
+      - type: 'controls'
+
+items:
+  - name: Обзор
+    href: index.yaml
+  - name: Начло работы1
+    href: qs/prepare.md
+    items:
+      - name: Подготовка
+        href: qs/prepare.md
+      - name: Создание проекта
+        href: qs/start_prj.md
+      - name: Структура проекта
+        href: qs/struct.md
+      - name: Основы отладки
+        href: qs/debug.md
+  - name: Параметры конфигурации плагина
+    href: nav/menu.md
+    items:
+      - name: Декларация команд
+        href: nav/command.md
+      - name: Основное меню
+        href: nav/menu.md
+      - name: Панель инструментов
+        href: nav/ribbon.md
+  - name: Описание функций библиотеки ALBATROS
+    items:
+    - name: Взаимодействие с пользователем
+      href: references\dialog_cmd.md
+      items:
+        - name: Сообщения ввода вывода 
+          href: references\dialog_cmd.md
+  - name: Контакты
+    href: contacts.md
